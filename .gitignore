@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+*.part
+# 認証情報を含むため公開しない
+minio_download.py
