@@ -56,3 +56,9 @@ pyinstaller --onefile --windowed --name MinioDownloader --icon assets/icon.ico -
 ---
 
 本ツールは MinIO, Inc. とは関係のない非公式ツールです。MinIO およびロゴは MinIO, Inc. の商標です。
+
+## ライセンス
+
+- このリポジトリのソースコードは [MIT License](LICENSE) です。
+- Releases の `MinioDownloader.exe` には Python 本体や minio・urllib3 などのライブラリが同梱されています。それぞれのライセンスと著作権表示は [THIRD_PARTY_LICENSES.txt](THIRD_PARTY_LICENSES.txt) にまとめています（各リリースにも添付しています）。
+- exe を作り直して配布する場合は、同梱するライブラリに合わせて `THIRD_PARTY_LICENSES.txt` を更新し、exe と一緒に配布してください。
